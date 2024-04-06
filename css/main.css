@@ -423,6 +423,7 @@ body {
 .master {
   background-image: url(/img/master.png);
   background-repeat: no-repeat;
+  max-width: 1220px;
   height: 670px;
 }
 
@@ -453,9 +454,10 @@ body {
 }
 
 .master__slayder {
-  width: 1120px;
+  max-width: 975px;
   align-items: center;
-  padding-left: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .container {
@@ -468,4 +470,11 @@ body {
   box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
   background: rgb(174, 123, 60);
   border: none;
+  margin-bottom: 123px;
+}
+
+@media screen and (max-width: 1088px) {
+  .master {
+    max-width: 1088px;
+  }
 }/*# sourceMappingURL=main.css.map */

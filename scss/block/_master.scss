@@ -1,6 +1,7 @@
 .master{
 background-image: url(/img/master.png);
 background-repeat: no-repeat;
+max-width: 1220px;
 height: 670px;
 }
 .master__blackfon{
@@ -28,9 +29,10 @@ margin-bottom: 23px;
 
 }
 .master__slayder{
-width: 1120px;
+max-width: 975px;
 align-items: center;
-padding-left: 80px;
+margin-left: 20px;
+margin-right: 20px;
 }
 .container{
   text-align: center;
@@ -41,4 +43,11 @@ padding-left: 80px;
 box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
 background: rgb(174, 123, 60);
 border: none;
+margin-bottom: 123px;
+}
+
+@media screen and (max-width:1088px) {
+.master{
+  max-width: 1088px;
+}
 }
