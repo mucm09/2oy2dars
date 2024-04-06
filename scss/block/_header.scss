@@ -1,0 +1,75 @@
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.hero__logo{
+  flex-shrink: 0;
+  max-width: 122px;
+}
+.hero__itemlink{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+}
+.hero__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ width: 440px;
+}
+.hero__list2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ width: 50px;
+}
+.hero__number{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+}
+.phone__img{
+  max-width: 15px;
+}
+.hoveractive:hover{
+color:chocolate;
+}
+.hoveractive:active{
+  color:rgb(242, 188, 149);
+  }
+.hero__hamburger{
+display: none;
+flex-shrink: 0;
+width: 12px;
+}
+
+@media screen and (max-width:1242px) {
+  .hero{
+    margin: 20px 10px 0px 10px;
+  }
+}
+@media screen and (max-width:830px) {
+  .hero__list{
+    display: none;
+  }
+  .hero__list2{
+    margin-left: 220px;
+  }
+  .hero__hamburger{
+    display: inline;
+    width: 25px;
+  }
+}
+
+@media screen and (max-width:610px) {
+  .hero__list2{
+    display: none;
+  }
+  .hero__number{
+    display: none;
+  }
+}
