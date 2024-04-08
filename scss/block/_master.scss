@@ -51,3 +51,23 @@ margin-bottom: 123px;
   max-width: 1088px;
 }
 }
+@media screen and (max-width:830px) {
+  .master__subtitle{
+    font-size: 50px;
+  }
+  .master__text{
+    font-size: 14px;
+  }
+  .centered-button{
+    padding: 18px 52px 18px 52px;
+  }
+}
+@media screen and (max-width:610px) {
+  .master__subtitle{
+    font-size: 44px;
+  }
+  .centered-button{
+    padding: 14px 48px ;
+    justify-content: space-between;
+  }
+}
